@@ -1,0 +1,113 @@
+
+h1{
+    color: rgb(8, 89, 104);
+    text-align:center;
+    padding: 5px 1px 6px;
+    text-shadow:2px 2px 5px  #7f399b;
+}
+
+body{
+    display: flex;
+    height:90%;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg,#71b7e6,#9b59b6);
+
+}
+.container{
+    
+    width: 60%;
+    height: 600px;
+    background: #b3d0dd;
+    margin: 20px;
+    padding :20px 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #103c5a ,8px 8px 4px rgb(192, 176, 207);
+}
+.container form .userdetails{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    
+    box-shadow: #71b7e6;
+}
+
+form .userdetails .inputbox {
+    margin: 10px 0 10px 0;
+    width: calc(100% / 2 - 10px);
+    align-items: center;
+
+}
+form .userdetails .inputbox input{
+  height: 20px;
+  width: 95%;
+  align-items: center;
+}
+.userdetails .inputbox input{
+    height: 10px;
+    width: 30%;
+    outline: none;
+    border-right: #fff;
+    border-radius: 5px 5px;
+    border: 1px solid #ccc;
+    padding:8px;
+    align-items: center;
+    font-size: 12px;
+    border: bottom width 2px; 
+    border-color: #9b59b6;
+    border-width: 1px;
+    box-shadow: #71b7e6;
+    font-weight: bold;
+    
+}
+.userdetails .inputbox input[type="text"]:hover{
+    color: #a6c3c9;
+    background-color: #6399b3;
+    cursor: grab;
+}
+.genderdetails{
+    color: black;
+    align-items: baseline;
+    }
+.genderdetails .gender label{
+    height: 10px;
+    width: 20px;
+    background: #9b59b6;
+}
+.genderdetails h3{
+    color: black;
+    font-style: unset ;
+
+}
+ form .register{
+    width: 100%;
+    height: 40px;
+    color:#fff;
+    outline:none ;
+    border: none;
+    background-color:#9b59b6;
+    cursor: pointer;
+}
+#register[type="submit"]:hover{
+    background-color: #7d1d80;
+}
+.gen .Gender  label{
+    height: 18px;
+    width: 18px;
+    background: #9b59b6;
+    border-radius: 50%;
+    margin: 100%;
+    padding: 100%;
+    color: #65a1c9;
+    
+}
+.signup-footer p{
+    color: #020b11;
+    text-align: center;
+}
+
+.signup-footer p a{
+ color:#2a6a96; ;
+}
+
+
